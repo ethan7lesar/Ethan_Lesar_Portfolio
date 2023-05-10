@@ -22,6 +22,15 @@ i{
 .main{
     /* background-image: url(/Assets/Images/mariola-grobelska-h6XihPOkSIY-unsplash.jpg); */
 }
+.learnmore{
+    font-size: 70px;
+    border: 5px;
+    
+}
+
+.content{
+    margin-top: 100px !important;
+}
 
 
 
