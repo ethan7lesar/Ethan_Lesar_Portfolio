@@ -28,3 +28,28 @@ i{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+@media only screen and (max-width:700px){
+.contactMe{
+margin: top 100px !important ;
+
+}
+
+
+}
+
+@media only screen and (max-width:300px) {
+    
+    .carousel-item{
+        display: none !important;
+        
+        
+    }
+    
+    .testimonials{
+        display: block !important;
+    }
+    
+    
+    
+}

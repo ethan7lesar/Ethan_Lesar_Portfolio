@@ -33,3 +33,11 @@ i{
     border-radius: 0;
 } */
 
+/* @media only screen and (max-width: 300px){
+.img-thumbnail{
+width: 140px !important;
+height: 280px !important;
+
+}
+}
+ */

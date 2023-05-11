@@ -30,9 +30,7 @@ i{
     padding-right: 20px;
 }
 
-.main{
-    /* background-image: url(/Assets/Images/mariola-grobelska-h6XihPOkSIY-unsplash.jpg); */
-}
+
 .learnmore{
     font-size: 70px;
     border: 5px;
@@ -348,7 +346,73 @@ i{
     }
   }
   
+  /*Media Queries*/
+
+  @media only screen and (max-width: 700px) {
+
+    .heading {
+      
+      font-size: 40px !important;
+     -webkit-animation: tracking-in-contract-bck 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+             animation: tracking-in-contract-bck 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+               
+   }
+   .learnmore{
+    font-size: 40px;
+    border: 5px;
+    
+}
+
+.text-white{
+  font-size: 50px;
+      
+}
+
+.developer{
+  font-size: 80px;
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+ animation: text-flicker-in-glow 4s linear both;
+   animation-delay: 3s;
 
 
 
+    
+  }
+
+
+  }
+
+  @media only screen and (max-width: 300px) {
+
+    .heading {
+     
+      font-size: 25px !important;
+     -webkit-animation: tracking-in-contract-bck 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+             animation: tracking-in-contract-bck 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+               
+   }
+   .learnmore{
+    font-size: 25px;
+    border: 5px;
+    
+}
+
+.text-white{
+  font-size: 30px;
+      
+}
+
+.developer{
+  font-size: 38px;
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+ animation: text-flicker-in-glow 4s linear both;
+   animation-delay: 3s;
+ 
+  }
+
+.copyright{
+  display: none;
+}
+
+  }
   
