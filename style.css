@@ -83,7 +83,7 @@ i{
     font-size: 120px;
     -webkit-animation: text-flicker-in-glow 4s linear both;
 	 animation: text-flicker-in-glow 4s linear both;
-     animation-delay: 4s;
+     animation-delay: 3s;
   }
 
   @-webkit-keyframes text-flicker-in-glow {
