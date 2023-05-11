@@ -125,14 +125,15 @@
             <div class="col">
               <h2 class="text-success">Socials:</h2>
               <ul class="text-white">
-                <li> ethanlesar11@gmail.com</li>
+                <li> <a class="text-white" href="mailto:ethanlesar11@gmail.com">ethanlesar11@gmail.com</a></li>
                 <li><a class="text-white" href="https://www.linkedin.com/in/ethan-lesar-57342a1a9/">Linkedin</a></li>
                 <li><a class="text-white" href="https://www.instagram.com/ethan_lesar/">IG ethan_lesar</a></li>
               </ul>
             </div>
           </div>
           <div class="row">
-            <div class="col"><h2 class="text-success">Location:</h2>
+            <div class="col">
+              <h2 class="text-success">Location:</h2>
               <ul class="text-white">
                 <li>14 Marsden Road</li>
                 <li> Walmer Estate</li>
@@ -141,36 +142,38 @@
             </div>
           </div>
         </div>
-        <form class="col-md-7 ">
+        <form class="col-md-7" action="https://formspree.io/f/mlekvdlp"
+        method="POST">
           <div class="row">
             
             <div class="col">
-              <input type="text" class="form-control" placeholder="First name" />
+              <input type="text" name="first-name" class="form-control" placeholder="First name" required />
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" />
+              <input type="text" class="form-control" name="last-name" placeholder="Last name" required />
             </div>
           </div>
           <div class="row pt-3">
             <div class="col">
-              <input type="email" class="form-control" placeholder="email" />
+              <input type="email" class="form-control" name="email" placeholder="email" required />
             </div>
           </div>
           <div class="row">
             <div class="col">
               <label for="exampleFormControlTextarea1" class="form-label text-success text-lg p-1"></label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1"  rows="3" placeholder="Message" required></textarea>
             </div>
           </div>
           <div class="row pt-3">
             <button
-            type="button"
-            class="btn btn-outline-success w-75"
+            class="btn btn-outline-success w-75" 
+            type="submit"
             >
             Sumbmit
           </button>
         </div>
       </form>
+    </div>
     </div>
       
     <footer class="navbar fixed-bottom bg-success flex-wrap-nowrap">
