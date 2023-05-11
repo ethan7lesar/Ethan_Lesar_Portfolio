@@ -5,6 +5,17 @@ body{
     background: black;
     font-family: 'Bebas Neue', cursive;
 }
+
+body::-webkit-scrollbar{
+    background-color: #F5F5F5;
+    color: #333;
+    line-height: 1.5;
+   display: none;
+  }
+  body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 /* footer{
     display: flex !important;
     flex-direction: row !important;
