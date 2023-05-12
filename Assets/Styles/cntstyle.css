@@ -38,4 +38,8 @@ margin-bottom: 60px;
     .copyright{
         display: none;
       }
+
+      .navbar-brand{
+        display: none;
+      }
 }

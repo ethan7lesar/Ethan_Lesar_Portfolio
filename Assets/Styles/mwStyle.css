@@ -16,6 +16,25 @@ body::-webkit-scrollbar{
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  h5{
+    font-size: 40px !important;
+  }
+
+ .git{
+    font-size: 50px !important;
+ }
+
+ .live{
+    font-size: 50px !important;
+ }
+
+ .contactMe{
+margin-bottom: 30px !important;
+font-size: 30px;
+
+ }
+
 /* footer{
     display: flex !important;
     flex-direction: row !important;
@@ -29,6 +48,12 @@ i{
     padding-right: 20px;
 }
 
+.carousel-caption{
+    display: flex !important;
+    background-color: #333853;
+
+}
+
 @media only screen and (max-width:700px){
 .contactMe{
 margin: top 100px !important ;
@@ -40,16 +65,36 @@ margin: top 100px !important ;
 
 @media only screen and (max-width:300px) {
     
-    .carousel-item{
-        display: none !important;
-        
-        
+    h5{
+        font-size: 10px !important;
+      }
+    
+     .git{
+        font-size: 12px !important;
+     }
+    
+     .live{
+        font-size: 12px !important;
+     }
+    .carousel-caption{
+        display: flex !important;
     }
     
     .testimonials{
         display: block !important;
     }
     
-    
-    
+    .copyright{
+        display: none !important;
+    }
+    .contactMe{
+        margin-bottom: 30px !important;
+        font-size: 20px;
+        
+         }  
+
+         .navbar-brand{
+            display: none;
+          }
 }
+
