@@ -42,7 +42,9 @@ height: 280px !important;
 }
  */
 
-
+.check{
+        font-size: 30px !important;
+}
   
 
  @media only screen and (max-width: 300px) {
